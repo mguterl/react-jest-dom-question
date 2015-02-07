@@ -36,6 +36,6 @@ describe('ReadMore', function() {
 
   it('expands the height to fit the content', function() {
     TestUtils.Simulate.click(link);
-    expect(content.getDOMNode().getAttribute('style')).toEqual('height:42px;');
+    expect(content.getDOMNode().getAttribute('style')).toEqual('height:100px;');
   });
 });
