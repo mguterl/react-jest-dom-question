@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="http://fb.me/react-0.12.2.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
+    <script src="ReadMore.js" type="text/jsx"></script>
+
+    <style type="text/css">
+      #content {
+        width: 500px;
+        margin: 0 auto;
+      }
+
+      .read-more__content {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='content'>
+      <p>
+        Main street christian moerlein flying pig ohio union terminal german
+        rivertown fifty west catawba wine 50 hyde park city uc isaac m. wise
+        temple. Over-the-rhine hamilton county ohio river mariemont city beat
+        paul brown stadium uc museum center freedom center otr ohio valley jazz
+        festival. Main street christian moerlein flying pig ohio union terminal
+        german rivertown fifty west catawba wine 50 hyde park city uc isaac m.
+        wise temple. Over-the-rhine paul brown stadium oktoberfest northside
+        ohio. Over-the-rhine paul brown stadium oktoberfest northside ohio.
+      </p>
+
+      <p>
+        Paris of america coffee emporium ohio italianate washington park
+        over-the-rhine city. Immigrants irish museum center uc freedom center
+        bengals. Over-the-rhine hamilton county ohio river mariemont city beat
+        paul brown stadium uc museum center freedom center otr ohio valley jazz
+        festival. River front cyclones otr hamilton county paris of america
+        zinzinnati freedom center midpoint music festival fifty west uc. Ohio
+        1788 breweries historic architecture freedom center slavery central 50
+        flying pig irish washington park chili italianate mariemont findlay
+        market. Isaac m. wise temple avondale immigrants otr.
+      </p>
+
+      <p>
+        Isaac m. wise temple avondale immigrants otr. Ohio 1788 breweries
+        historic architecture freedom center slavery central 50 flying pig irish
+        washington park chili italianate mariemont findlay market. Ohio 1788
+        breweries historic architecture freedom center slavery central 50 flying
+        pig irish washington park chili italianate mariemont findlay market.
+      </p>
+    </div>
+  </body>
+  <script type="text/jsx">
+    var content = document.getElementById('content');
+
+    React.render(
+      <ReadMore content={content.innerHTML} collapsedHeight='112px' />,
+      content
+    );
+  </script>
+</html>
